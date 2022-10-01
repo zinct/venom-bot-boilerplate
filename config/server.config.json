@@ -1,0 +1,8 @@
+{
+  "apps": [
+    {
+      "name": "venom-bot",
+      "script": "yarn start"
+    }
+  ]
+}

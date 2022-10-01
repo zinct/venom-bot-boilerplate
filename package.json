@@ -1,0 +1,30 @@
+{
+  "name": "venom-bot-boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Indra Mahesa <indramahesa128@gmail.com>",
+  "license": "SEE LICENSE IN license.md",
+  "private": true,
+  "scripts": {
+    "dev": "NODE_ENV=development clear && nodemon index",
+    "start": "NODE_ENV=production node index"
+  },
+  "dependencies": {
+    "axios": "^0.26.0",
+    "date-and-time": "^2.3.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "form-data": "^4.0.0",
+    "mysql2": "^2.3.3",
+    "qr-string": "^1.0.7",
+    "sequelize": "^6.16.2",
+    "sharp": "^0.30.3",
+    "socket.io": "^4.4.1",
+    "validator": "^13.7.0",
+    "venom-bot": "^4.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "sequelize-cli": "^6.4.1"
+  }
+}

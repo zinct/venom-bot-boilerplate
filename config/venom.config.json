@@ -1,0 +1,10 @@
+{
+  "bot_name": "BurgerBot",
+  "disableWelcome": true,
+  "multidevice": true,
+  "headless": true,
+  "createPathFileToken": true,
+  "logQR": false,
+  "autoClose": 0,
+  "useChrome": false
+}
